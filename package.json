@@ -1,0 +1,24 @@
+{
+  "name": "check-fn",
+  "version": "1.0.0",
+  "description": "Check if any variable in js is a function or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lalisfeed/check-fn.git"
+  },
+  "keywords": [
+    "check-a-function",
+    "front-end",
+    "back-end"
+  ],
+  "author": "Lalisfeed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lalisfeed/check-fn/issues"
+  },
+  "homepage": "https://github.com/Lalisfeed/check-fn#readme"
+}
