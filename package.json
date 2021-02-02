@@ -1,6 +1,6 @@
 {
   "name": "check-fn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if any variable in js is a function or not",
   "main": "index.js",
   "scripts": {
