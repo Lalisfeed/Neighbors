@@ -2,7 +2,7 @@
 
 [![install size](https://packagephobia.com/badge?p=check-fn)](https://packagephobia.com/result?p=check-fn)
 [![npm version](https://img.shields.io/npm/v/check-fn.svg?style=flat-square)](https://www.npmjs.org/package/check-fn)
-[![](https://data.jsdelivr.com/v1/package/npm/check-fn/badge)](https://www.jsdelivr.com/package/npm/check-fn)
+[![npm downloads](https://img.shields.io/npm/dw/check-fn.svg?style=flat-square)](http://npm-stat.com/charts.html?package=check-fn)
 
 # What is dis?
 
