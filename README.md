@@ -6,7 +6,7 @@
 
 ## What is dis?
 
-> A bool function that checks for type of a JS variable .
+> A list of bool functions that checks for type of a JS variable .
 
 We use the strict equality operator (===) while checking.
 

@@ -1,7 +1,7 @@
 {
   "name": "check-fn",
-  "version": "1.0.5",
-  "description": "Check if any variable in javascript is a function or not",
+  "version": "1.0.6",
+  "description": "A bool function that checks for type of a JS variable",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Lalisfeed/check-fn.git"
   },
   "keywords": [
-    "check-a-function",
+    "check-a-variable",
     "front-end",
     "back-end"
   ],
