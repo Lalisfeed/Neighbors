@@ -18,15 +18,3 @@ module.exports = {
     checkObj : checkObj,
     checkFn : checkFn
 }
-
-let x;
-const bazz = () => { console.log("🦄") }
-
-console.log(checkNum(42))
-console.log(checkBigInt(42n))
-console.log(checkStr("v"))
-console.log(checkBool(true))
-console.log(checkSym(Symbol()))
-console.log(checkUnd(x))
-console.log(checkObj({"rainbow": "🌈"}))
-console.log(checkFn(bazz))

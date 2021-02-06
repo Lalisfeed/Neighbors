@@ -1,6 +1,6 @@
 {
   "name": "check-fn",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A bool function that checks for type of a JS variable",
   "main": "index.js",
   "scripts": {
