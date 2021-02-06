@@ -4,39 +4,115 @@
 [![npm version](https://img.shields.io/npm/v/check-fn.svg?style=flat-square)](https://www.npmjs.org/package/check-fn)
 [![npm downloads](https://img.shields.io/npm/dw/check-fn.svg?style=flat-square)](http://npm-stat.com/charts.html?package=check-fn)
 
-# What is dis?
+## What is dis?
 
-> A bool function that checks if a variable is a function or not.
+> A bool function that checks for type of a JS variable .
 
-# Installation
+We use the strict equality operator (===) while checking.
+
+## Content
+  - [What is dis?](#what-is-dis)
+  - [Content](#content)
+  - [Installation](#installation)
+  - [Important](#important)
+  - [Usage](#usage)
+    - [checkNum](#checknum)
+    - [checkBigInt](#checkbigint)
+    - [checkStr](#checkstr)
+    - [checkBool](#checkbool)
+    - [checkSym](#checksym)
+    - [checkUnd](#checkund)
+    - [checkObj](#checkobj)
+    - [checkFn](#checkfn)
+  - [LICENSE](#license)
+
+
+## Installation
 
 ```
 npm i check-fn
 ```
 
-# Usage
-
-Add this to your `Javascript` file
+## Important 
+> Add this line at your top of the javascript file and import any function you want.
 
 ```javascript 
-import { checkFn } from 'check-fn';
-
-checkFn(inputVar); // returns true or false
-
+import { 
+    checkNum, 
+    checkBigInt,
+    checkStr,
+    checkBool,
+    checkSym,
+    checkUnd,
+    checkObj,
+    checkFn
+ } from 'check-fn';
 ```
 
-# LICENSE
+## Usage
 
+> Make use of the following functions in your code. 
 
+###  checkNum
 
-**MIT License**
+```javascript 
+checkNum(42); 
+// true
+```
 
-Copyright (c) 2021 **Lali Akhil Raj**
+###  checkBigInt
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+```javascript 
+checkBigInt(42n); 
+// true
+```
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+###  checkStr
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```javascript 
+checkStr("foo"); 
+// true
+```
 
-## **Congratulations You Can make your Code even shorter than before.**
+###  checkBool
+
+```javascript 
+checkBool(true); 
+// true
+```
+
+###  checkSym
+
+```javascript 
+checkSym(Symbol()); 
+// true
+```
+
+###  checkUnd
+
+```javascript 
+let bar; 
+checkUnd(bar); 
+// true
+```
+
+###  checkObj
+
+```javascript 
+checkObj({"rainbow": "🌈"}); 
+// true
+```
+
+###  checkFn
+
+```javascript 
+const bazz = () => { console.log("🦄") }
+checkFn(bazz); 
+// true
+```
+
+> **Congratulations You Can make your Code even shorter than before.**
+
+## LICENSE
+
+ MIT License
