@@ -7,14 +7,4 @@ const checkSym = (b) => { if (typeof (b) === "symbol") { return true } else { re
 const checkUnd = (b) => { if (typeof (b) === "undefined") { return true } else { return false } }
 const checkObj = (b) => { if (typeof (b) === "object") { return true } else { return false } }
 const checkFn = (b) => { if (typeof (b) === "function") { return true } else { return false } }
-
-module.exports = {
-    checkNum : checkNum,
-    checkBigInt : checkBigInt,
-    checkStr : checkStr,
-    checkBool : checkBool,
-    checkSym : checkSym,
-    checkUnd : checkUnd,
-    checkObj : checkObj,
-    checkFn : checkFn
-}
+module.exports = { checkNum : checkNum, checkBigInt : checkBigInt, checkStr : checkStr, checkBool : checkBool, checkSym : checkSym, checkUnd : checkUnd, checkObj : checkObj, checkFn : checkFn}
